@@ -1,4 +1,4 @@
 interface IViewAcademicRecords
 {
-    string ViewAcademicRecords(User user);
+    void ViewAcademicRecords(User user);
 }

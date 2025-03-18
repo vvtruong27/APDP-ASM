@@ -1,19 +1,23 @@
-class ManageCourse
+class ManageUser
 {
     private CSVServices services;
-    public ManageCourse()
+    public ManageUser()
     {
         services = CSVServices.GetInstance();
     }
-    public bool assignCourse(Course course, List<Student> student)
+    public bool AddUser(User user)
     {
         throw new System.NotImplementedException();
     }
-    public bool AddCourse(Course course)
+    public bool RemoveUser(User user)
     {
         throw new System.NotImplementedException();
     }
-    public bool RemoveCourse(Course course)
+    public bool UpdateUser(User user)
+    {
+        throw new System.NotImplementedException();
+    }
+    public bool GetUser(User user)
     {
         throw new System.NotImplementedException();
     }

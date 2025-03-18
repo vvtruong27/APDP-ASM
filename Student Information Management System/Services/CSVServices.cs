@@ -1,9 +1,9 @@
 class CSVServices 
 {
     private string filePath;
-    private CSVServices instances;
+    static private CSVServices instances;
     private CSVServices() {}
-    public CSVServices GetInstance()
+    static public CSVServices GetInstance()
     {
         if (instances == null)
         {

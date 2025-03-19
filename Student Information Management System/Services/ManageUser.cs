@@ -1,24 +1,20 @@
-class ManageUser
-{
+public class ManageUser {
     private CSVServices services;
-    public ManageUser()
-    {
+
+    public manageUsers() {
         services = CSVServices.GetInstance();
     }
-    public bool AddUser(User user)
-    {
-        throw new System.NotImplementedException();
+
+    public boolean addUser(User user) {
+        // Implementation here
     }
-    public bool RemoveUser(User user)
-    {
-        throw new System.NotImplementedException();
+    public boolean removeUser(User user) {
+        // Implementation here
     }
-    public bool UpdateUser(User user)
-    {
-        throw new System.NotImplementedException();
+    public boolean updateUser(User user) {
+        // Implementation here
     }
-    public bool GetUser(User user)
-    {
-        throw new System.NotImplementedException();
+    public boolean getUser(User user) {
+        // Implementation here
     }
 }

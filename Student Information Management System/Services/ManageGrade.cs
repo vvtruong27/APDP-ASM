@@ -1,24 +1,25 @@
-class ManageGrade
-{
+public class ManageGrades {
     private CSVServices services;
-    public ManageGrade()
-    {
+    public ManageGrades() {
         services = CSVServices.GetInstance();
     }
-    public bool AddGrade(Grade grade)
-    {
-        throw new System.NotImplementedException();
+    public boolean addGrades(Grades grades, Course course) {
+        // Implementation here
+        return true;
     }
-    public bool RemoveGrade(Grade grade)
-    {
-        throw new System.NotImplementedException();
+
+    public boolean removeGrades(Grades grades, Course course) {
+        // Implementation here
+        return true;
     }
-    public bool UpdateGrade(Grade grade)
-    {
-        throw new System.NotImplementedException();
+
+    public boolean updateGrades(Grades grades, Course course) {
+        // Implementation here
+        return true;
     }
-    public bool GetGrade(Grade grade)
-    {
-        throw new System.NotImplementedException();
+
+    public Grades getGrades(Course course) {
+        // Implementation here
+        return null;
     }
 }

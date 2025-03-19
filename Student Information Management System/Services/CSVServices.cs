@@ -1,58 +1,24 @@
-class CSVServices 
-{
-    private string filePath;
-    static private CSVServices instances;
+public class CSVServices {
+    private String filePath;
+    private static CSVServices instance;
+
     private CSVServices() {}
-    static public CSVServices GetInstance()
-    {
-        if (instances == null)
-        {
-            instances = new CSVServices();
+
+    public static CSVServices getInstance() {
+        if (instance == null) {
+            instance = new CSVServices();
         }
-        return instances;
+        return instance;
     }
-    private void ReadData()
-    {
-        throw new System.NotImplementedException();
-    }
-    private void WriteData()
-    {
-        throw new System.NotImplementedException();
-    }
-    public void AuthenticateUser()
-    {
-        throw new System.NotImplementedException();
-    }
-    public void ReadCourses()
-    {
-        throw new System.NotImplementedException();
-    }
-    public void ReadStudents()
-    {
-        throw new System.NotImplementedException();
-    }
-    public void ReadFaculties()
-    {
-        throw new System.NotImplementedException();
-    }
-    public void ReadUsers()
-    {
-        throw new System.NotImplementedException();
-    }
-    public void WriteCourses()
-    {
-        throw new System.NotImplementedException();
-    }
-    public void WriteStudents()
-    {
-        throw new System.NotImplementedException();
-    }
-    public void WriteFaculties()
-    {
-        throw new System.NotImplementedException();
-    }
-    public void WriteUsers()
-    {
-        throw new System.NotImplementedException();
-    }
+
+    public void readData() {}
+    public void writeData() {}
+    public void readCourse() {}
+    public void writeCourse() {}
+    public void readUser() {}
+    public void writeUser() {}
+    public void readStudent() {}
+    public void writeStudent() {}
+    public void readFaculty() {}
+    public void writeFaculty() {}
 }

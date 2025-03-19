@@ -1,3 +1,3 @@
-class Administrator: User {
-    
+public class Administrator : User {
+    public override bool Authenticate() => true;
 }

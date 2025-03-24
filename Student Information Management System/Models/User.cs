@@ -6,6 +6,6 @@ public class User : IAuthenticate, IGetProfile {
     public string Phone { get; set; }
     public string Role { get; set; }
 
-    public virtual bool Authenticate() => true;
-    public virtual string GetProfileDetails() => $"{Name} ({Role}) - {Email}";
+    public virtual bool Authenticate(User user) => true;
+    public virtual string GetProfileDetails(User user) => $"{Name} ({Role}) - {Email}";
 }

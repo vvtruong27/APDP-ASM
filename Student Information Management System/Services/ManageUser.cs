@@ -1,8 +1,8 @@
 public class ManageUser {
     private CSVServices services;
 
-    public manageUsers() {
-        services = CSVServices.GetInstance();
+    public ManageUser() {
+        services = CSVServices.getInstance();
     }
 
     public boolean addUser(User user) {

@@ -1,4 +1,4 @@
-class PDFDownloadStrategy : ITranscriptDownloadStrategy
+public class PDFDownloadStrategy : ITranscriptDownloadStrategy
 {
     public bool DownloadTranscript(User user)
     {

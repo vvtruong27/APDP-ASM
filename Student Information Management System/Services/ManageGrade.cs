@@ -1,9 +1,9 @@
 public class ManageGrades {
     private CSVServices services;
     public ManageGrades() {
-        services = CSVServices.GetInstance();
+        services = CSVServices.getInstance();
     }
-    public boolean addGrades(Grades grades, Course course) {
+    public bool addGrades(Grade grades, Course course) {
         // Implementation here
         return true;
     }

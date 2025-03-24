@@ -1,4 +1,4 @@
-class PNGDownloadStrategy : ITranscriptDownloadStrategy
+public class PNGDownloadStrategy : ITranscriptDownloadStrategy
 {
     public bool DownloadTranscript(User user)
     {

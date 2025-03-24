@@ -3,7 +3,7 @@ class AssignFaculty
     private CSVServices services;
     public AssignFaculty()
     {
-        services = CSVServices.GetInstance();
+        services = CSVServices.getInstance();
     }
     public bool AssignFacultyToCourse(Faculty faculty, Course course)
     {

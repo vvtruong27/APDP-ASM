@@ -1,16 +1,19 @@
 public class ManageCourse {
     private CSVServices services;
 
-    public manageCourses() {
-        services = CSVServices.GetInstance();
+    public ManageCourse() {
+        services = CSVServices.getInstance();
     }
-    public boolean assignCourseToStudent(Course course, Student student) {
+    public bool assignCourseToStudent(Course course, Student student) {
         // Implementation here
+        throw new System.NotImplementedException();
     }
-    public boolean addCourse(Course course) {
+    public bool addCourse(Course course) {
         // Implementation here
+        throw new System.NotImplementedException();
     }
-    public boolean removeCourse(Course course) {
+    public bool removeCourse(Course course) {
         // Implementation here
+        throw new System.NotImplementedException();
     }
 }

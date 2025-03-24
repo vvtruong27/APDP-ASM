@@ -1,4 +1,4 @@
-class Course
+public class Course
 {
     public string courseId;
     public string courseName;

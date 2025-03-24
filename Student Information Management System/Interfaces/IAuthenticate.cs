@@ -1,4 +1,4 @@
-interface IAuthenticate
+public interface IAuthenticate
 {
     bool Authenticate(User user);
 }

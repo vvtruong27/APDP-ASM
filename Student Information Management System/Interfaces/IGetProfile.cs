@@ -1,4 +1,4 @@
-interface IGetProfile
+public interface IGetProfile
 {
     string GetProfileDetails(User user);
 }

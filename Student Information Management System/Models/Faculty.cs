@@ -1,4 +1,4 @@
-class Faculty: User, ITranscriptDownloadStrategy, IViewAcademicRecords
+public class Faculty: User, ITranscriptDownloadStrategy, IViewAcademicRecords
 {
     private ITranscriptDownloadStrategy transcriptStrategy;
     public bool DownloadTranscript(User user)

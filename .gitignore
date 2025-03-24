@@ -1,0 +1,59 @@
+# **Build & Output Directories**
+bin/
+obj/
+out/
+TestResults/
+PublishProfiles/
+.vscode/
+
+# **User-Specific & IDE Configuration Files**
+*.user
+*.suo
+*.vs
+*.vscode/
+*.userosscache
+*.sln.docstates
+.vs/
+
+# **Log Files & Cache**
+*.log
+*.cache
+*.pdb
+*.ldb
+*.pyo
+*.pyc
+*.class
+*.pydevproject
+.DS_Store
+Thumbs.db
+
+# **ASP.NET Temporary Files**
+**/node_modules/
+**/bower_components/
+**/dist/
+**/tmp/
+**/temp/
+
+# **Configuration & Secret Files**
+appsettings.json
+appsettings.Development.json
+secrets.json
+.env
+.env.local
+.env.*.local
+
+# **Generated Files & Dependencies**
+project.lock.json
+project.assets.json
+global.json
+.nuget/
+.nuget/packages/
+packages/
+*.nupkg
+*.snupkg
+
+# **Rider & JetBrains IDEs**
+.idea/
+*.iml
+
+#

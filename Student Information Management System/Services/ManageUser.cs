@@ -62,5 +62,58 @@ namespace StudentInformationManagementSystem.Services
 
             return false;
         }
+
+        public List<User> GetNonAdminUsers()
+        {
+            var users = csvServices.ReadData();
+            var nonAdminUsers = new List<User>();
+
+            foreach (var user in users)
+            {
+                if (user[6].ToLower() != "administrator") // Loại bỏ Administrator (Role ở cột 6)
+                {
+                    nonAdminUsers.Add(new User
+                    {
+                        UserID = user[0],
+                        Username = user[1],
+                        Password = user[2],
+                        Name = user[3],
+                        Email = user[4],
+                        Phone = user[5],
+                        Role = user[6]
+                    });
+                }
+            }
+
+            return nonAdminUsers;
+        }
+
+        // Phương thức UpdateUser để cập nhật thông tin người dùng
+        public void UpdateUser(User updatedUser)
+        {
+            var users = csvServices.ReadData();
+            
+            for (int i = 0; i < users.Count; i++)
+            {
+                if (users[i][0] == updatedUser.UserID) // Tìm phần tử có UserID khớp
+                {
+                    // Cập nhật thông tin người dùng trong danh sách
+                    users[i] = new string[]
+                    {
+                        updatedUser.UserID,
+                        updatedUser.Username,
+                        updatedUser.Password,
+                        updatedUser.Name,
+                        updatedUser.Email,
+                        updatedUser.Phone,
+                        updatedUser.Role
+                    };
+                    break;
+                }
+            }
+
+            // Ghi lại danh sách đã cập nhật vào file CSV
+            csvServices.WriteData(users);
+        }
     }
 }

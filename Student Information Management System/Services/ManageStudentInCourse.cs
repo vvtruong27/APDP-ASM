@@ -1,22 +1,45 @@
-public class ManageStudentInCourse {
-    private CSVServices services;
-    public ManageStudentInCourse() {
-        services = CSVServices.getInstance();
-    }
-    public bool addStudent(Student student) {
-        // Implementation here
-        throw new System.NotImplementedException();
-    }
-    public bool removeStudent(Student student) {
-        // Implementation here
-        throw new System.NotImplementedException();
-    }
-    public bool updateStudent(Student student) {
-        // Implementation here
-        throw new System.NotImplementedException();
-    }
-    public bool getStudent(Student student) {
-        // Implementation here
-        throw new System.NotImplementedException();
+using System.Collections.Generic;
+
+namespace StudentInformationManagementSystem.Services
+{
+    public class ManageStudentInCourse
+    {
+        private readonly CSVServices csvServices;
+
+        public ManageStudentInCourse(CSVServices services)
+        {
+            csvServices = services;
+        }
+
+        public void AddStudentToCourse(string studentId, string courseId)
+        {
+            var courses = csvServices.ReadData();
+            
+            foreach (var course in courses)
+            {
+                if (course[0] == courseId) // CourseID ở cột 0
+                {
+                    course[6] += $"{studentId};"; // Thêm StudentID vào danh sách sinh viên của khóa học
+                    break;
+                }
+            }
+
+            csvServices.WriteData(courses);
+        }
+
+        public List<string> GetStudentsInCourse(string courseId)
+        {
+            var courses = csvServices.ReadData();
+
+            foreach (var course in courses)
+            {
+                if (course[0] == courseId) // CourseID ở cột 0
+                {
+                    return new List<string>(course[6].Split(';')); // Tách danh sách StudentID bằng dấu ';'
+                }
+            }
+
+            return null;
+        }
     }
 }

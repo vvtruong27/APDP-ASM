@@ -1,4 +1,7 @@
-public interface ITranscriptDownloadStrategy
+namespace StudentInformationManagementSystem.Interfaces
 {
-    bool DownloadTranscript(User user);
+    public interface ITranscriptDownloadStrategy
+    {
+        void DownloadTranscript(string studentId, string format);
+    }
 }

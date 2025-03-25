@@ -1,4 +1,7 @@
-public interface IGetProfile
+namespace StudentInformationManagementSystem.Interfaces
 {
-    string GetProfileDetails(User user);
+    public interface IGetProfile
+    {
+        string GetProfileDetails(string userId);
+    }
 }

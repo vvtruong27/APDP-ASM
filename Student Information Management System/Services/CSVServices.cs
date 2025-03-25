@@ -1,24 +1,40 @@
-public class CSVServices {
-    private String filePath;
-    private static CSVServices instance;
+using System.Collections.Generic;
+using System.IO;
 
-    private CSVServices() {}
+namespace StudentInformationManagementSystem.Services
+{
+    public class CSVServices
+    {
+        private readonly string filePath;
 
-    public static CSVServices getInstance() {
-        if (instance == null) {
-            instance = new CSVServices();
+        public CSVServices(string filePath)
+        {
+            this.filePath = filePath;
         }
-        return instance;
-    }
 
-    public void readData() {}
-    public void writeData() {}
-    public void readCourse() {}
-    public void writeCourse() {}
-    public void readUser() {}
-    public void writeUser() {}
-    public void readStudent() {}
-    public void writeStudent() {}
-    public void readFaculty() {}
-    public void writeFaculty() {}
+        public List<string[]> ReadData()
+        {
+            var data = new List<string[]>();
+            using (var reader = new StreamReader(filePath))
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    data.Add(line.Split(','));
+                }
+            }
+            return data;
+        }
+
+        public void WriteData(List<string[]> data)
+        {
+            using (var writer = new StreamWriter(filePath))
+            {
+                foreach (var row in data)
+                {
+                    writer.WriteLine(string.Join(",", row));
+                }
+            }
+        }
+    }
 }

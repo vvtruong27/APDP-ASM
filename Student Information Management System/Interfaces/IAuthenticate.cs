@@ -1,4 +1,7 @@
-public interface IAuthenticate
+namespace StudentInformationManagementSystem.Interfaces
 {
-    bool Authenticate(User user);
+    public interface IAuthenticate
+    {
+        bool Authenticate(string username, string password);
+    }
 }

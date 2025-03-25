@@ -1,16 +1,23 @@
-public class Student: User, ITranscriptDownloadStrategy, IViewAcademicRecords
+namespace StudentInformationManagementSystem.Models
 {
-    private ITranscriptDownloadStrategy transcriptStrategy;
-    public bool DownloadTranscript(User user)
+    public class Student : User
     {
-        throw new System.NotImplementedException();
-    }
-    public void ViewAcademicRecords(User user)
-    {
-        throw new System.NotImplementedException();
-    }
-    public void SetTranscriptDownloadStrategy(ITranscriptDownloadStrategy strategy)
-    {
-        this.transcriptStrategy = strategy;
+        public override bool Authenticate(string username, string password)
+        {
+            // Logic xác thực sinh viên (nếu cần tùy chỉnh)
+            return base.Authenticate(username, password);
+        }
+
+        public void ViewAcademicRecords()
+        {
+            // Logic xem hồ sơ học tập cá nhân
+            Console.WriteLine("Viewing academic records...");
+        }
+
+        public void DownloadTranscript(string format)
+        {
+            // Logic tải bảng điểm theo định dạng (PDF hoặc PNG)
+            Console.WriteLine($"Downloading transcript in {format} format...");
+        }
     }
 }

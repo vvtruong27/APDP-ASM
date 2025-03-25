@@ -1,4 +1,7 @@
-public interface IViewAcademicRecords
+namespace StudentInformationManagementSystem.Interfaces
 {
-    void ViewAcademicRecords(User user);
+    public interface IViewAcademicRecords
+    {
+        string ViewAcademicRecords(string userId);
+    }
 }

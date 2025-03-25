@@ -3,23 +3,23 @@ public class ManageGrades {
     public ManageGrades() {
         services = CSVServices.getInstance();
     }
-    public bool addGrades(Grade grades, Course course) {
+    public bool addGrades(int grades, Course course) {
         // Implementation here
         return true;
     }
 
-    public boolean removeGrades(Grades grades, Course course) {
+    public bool removeGrades(int grades, Course course) {
         // Implementation here
         return true;
     }
 
-    public boolean updateGrades(Grades grades, Course course) {
+    public bool updateGrades(int grades, Course course) {
         // Implementation here
         return true;
     }
 
-    public Grades getGrades(Course course) {
+    public int getGrades(Course course) {
         // Implementation here
-        return null;
+        return 0;
     }
 }

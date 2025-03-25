@@ -26,7 +26,7 @@ namespace StudentInformationManagementSystem.Controllers
             if (_authManage.Authenticate(username, password))
             {
                 // Nếu đăng nhập thành công, chuyển hướng tới trang chính
-                return RedirectToAction("Dashboard", "Home");
+                return RedirectToAction("Index", "Dashboard");
             }
             
             // Nếu thất bại, hiển thị thông báo lỗi

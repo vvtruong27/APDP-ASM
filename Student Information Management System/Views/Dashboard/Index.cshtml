@@ -1,0 +1,43 @@
+@model List<StudentInformationManagementSystem.Models.User>
+
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<h2 class="text-center">Dashboard - User Management</h2>
+
+<div class="container mt-4">
+    <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>User ID</th>
+                <th>Username</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Role</th>
+                <th>Actions</th> <!-- Cột cho các nút Sửa và Xóa -->
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.UserID</td>
+                    <td>@user.Username</td>
+                    <td>@user.Name</td>
+                    <td>@user.Email</td>
+                    <td>@user.Phone</td>
+                    <td>@user.Role</td>
+                    <td>
+                        <!-- Nút Sửa -->
+                        <a href="/ManageUsers/Edit/@user.UserID" class="btn btn-warning btn-sm">Edit</a>
+
+                        <!-- Nút Xóa -->
+                        <a href="/ManageUsers/Delete/@user.UserID" class="btn btn-danger btn-sm">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

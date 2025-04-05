@@ -1,8 +1,9 @@
 userID,username,password,name,email,phone,role
-1,tmanni,ZD81Hd*6#6,Sarah Rogers,qtownsend@pugh.info,+1-515-058-2054x9256,Administrator
+1,tmanni,admin,Sarah Rogers,qtownsend@pugh.info,+1-515-058-2054x9256,Administrator
 2,johnbrown,#d2R8@zm!4,James Moss,lozanodaryl@gmail.com,(823)560-7419,Administrator
 3,smithlucas,&1_qWRb493,Justin Hayes,wthompson@brown.com,001-723-691-0343x975,Administrator
-5,du,&IZR802x1!,Jennifer Williams,toconnor@gmail.com,(519)827-8019,Student
+4,du,admin,Jennnnifer,toconor@gmail.com,(519)828019,Student
+5,du1,&IZR802x1!,Jennifer Williams,toconnor@gmail.com,(519)827-8019,Student
 6,tracy74,d(fM3C_o+W,Carolyn Sims,tyler08@yahoo.com,001-416-797-0791x2230,Faculty
 7,djenkins,+pBAg$z098,Julia Luna,samantha21@yahoo.com,126-572-2644x3930,Administrator
 8,fedwards,!c2%wFVf9K,Jamie Dominguez,miguel85@gonzalez.com,691.219.6832,Administrator
@@ -14,17 +15,18 @@ userID,username,password,name,email,phone,role
 14,mark09,H2pEwXgz)T,Victor Ramsey,sandovalwalter@hotmail.com,(651)812-0186x7223,Student
 15,amywilliams,y91Y*htOD*,Chase Burke,pattersonsteven@taylor.com,+1-205-079-1444,Administrator
 16,keith47,!y$0LSx2t0,Clifford Williams,zfrost@sweeney-bryant.com,596-412-8568x7786,Administrator
+17,amandaanderson,ZkY#8T6y)*,Brittney Velasquez,ramosmegan@chambers.com,732-185-0963,Student
 18,james86,_1sAYovmqx,Debbie Jones,ericjefferson@gmail.com,(734)013-2823,Administrator
 19,alicia71,%N3$A*qYea,Justin Fox,gonzalezcraig@patterson.com,807.071.8485,Faculty
 20,john62,E!o8UYh5ya,Amanda Johnson,joandouglas@keith-allen.com,450-233-4625,Administrator
 21,sallyramirez,^5SbbzQqQ8,Scott Johnson,uyoung@hotmail.com,447.579.5757,Administrator
 22,kellysimpson,)ZVLGCAe64,Sean Kennedy,codylane@camacho.biz,139.856.7343x10292,Student
 23,amandaanderson,ZkY#8T6y)*,Brittney Velasquez,ramosmegan@chambers.com,732-185-0963,Student
-24,kimberlygarrison,(eW8M)Ew%n,Gregory Ball,margaretdavis@kelly.org,854.301.0328x4496,Faculty
+24,kimberlygarrison,admin,Gregory Ball,margaretdavis@kelly.org,854.301.0328x4496,Faculty
 25,jenniferwaller,L90w#Tp^_+,Andrew Hudson,tbailey@gmail.com,675-234-6537x8904,Faculty
 26,renee54,T%gu4ISzZ2,Phillip Martinez,samuelmelton@yahoo.com,+1-067-218-0801x34565,Student
 27,candice66,76+HOiQP$q,Gabriel Brown,taylorbrown@thomas-mercado.org,535-306-8219,Student
 28,emilybutler,I_0IkorL!O,Kelly Patrick,elee@hotmail.com,001-738-425-5490,Student
 29,cvillanueva,ZFr$$1Crg3,Brandon Cuevas,morganparrish@yahoo.com,7810514772,Administrator
 30,lauren50,@6N^Of8Ajd,Madison Miller,monicaalexander@hawkins.com,188.775.5653,Student
-8997,dhhhh,1236`,du,hoangdu@gmail.com,1234898,Administrator
+31,du1444,123,Hoang Cong Du,hoangdu1999s2@gmail.com,0775751954,Faculty

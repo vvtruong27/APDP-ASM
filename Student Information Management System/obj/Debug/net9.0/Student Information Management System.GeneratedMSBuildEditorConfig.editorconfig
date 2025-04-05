@@ -1,69 +1,113 @@
 is_global = true
 build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Student_Information_Management_System
 build_property.RootNamespace = Student_Information_Management_System
-build_property.ProjectDir = /Users/truongvu/Documents/Assignments/APDP/Student Information Management System/Student Information Management System/
+build_property.ProjectDir = /Users/truongvu/Documents/Assignments/APDP-ASM-DU/Student Information Management System/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/truongvu/Documents/Assignments/APDP/Student Information Management System/Student Information Management System
+build_property.MSBuildProjectDirectory = /Users/truongvu/Documents/Assignments/APDP-ASM-DU/Student Information Management System
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[/Users/truongvu/Documents/Assignments/APDP/Student Information Management System/Student Information Management System/Views/Dashboard/Index.cshtml]
+[/Users/truongvu/Documents/Assignments/APDP-ASM-DU/Student Information Management System/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGFzaGJvYXJkL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/truongvu/Documents/Assignments/APDP/Student Information Management System/Student Information Management System/Views/Home/Index.cshtml]
+[/Users/truongvu/Documents/Assignments/APDP-ASM-DU/Student Information Management System/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/truongvu/Documents/Assignments/APDP/Student Information Management System/Student Information Management System/Views/Home/Privacy.cshtml]
+[/Users/truongvu/Documents/Assignments/APDP-ASM-DU/Student Information Management System/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/truongvu/Documents/Assignments/APDP/Student Information Management System/Student Information Management System/Views/Login/Index.cshtml]
+[/Users/truongvu/Documents/Assignments/APDP-ASM-DU/Student Information Management System/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4vSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/truongvu/Documents/Assignments/APDP/Student Information Management System/Student Information Management System/Views/ManageUsers/Delete.cshtml]
+[/Users/truongvu/Documents/Assignments/APDP-ASM-DU/Student Information Management System/Views/ManageCourse/CourseDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFuYWdlQ291cnNlL0NvdXJzZURldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/truongvu/Documents/Assignments/APDP-ASM-DU/Student Information Management System/Views/ManageCourse/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFuYWdlQ291cnNlL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/truongvu/Documents/Assignments/APDP-ASM-DU/Student Information Management System/Views/ManageCourse/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFuYWdlQ291cnNlL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/truongvu/Documents/Assignments/APDP-ASM-DU/Student Information Management System/Views/ManageCourse/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFuYWdlQ291cnNlL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/truongvu/Documents/Assignments/APDP-ASM-DU/Student Information Management System/Views/ManageGrade/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFuYWdlR3JhZGUvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/truongvu/Documents/Assignments/APDP-ASM-DU/Student Information Management System/Views/ManageGrade/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFuYWdlR3JhZGUvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/truongvu/Documents/Assignments/APDP-ASM-DU/Student Information Management System/Views/ManageGrade/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFuYWdlR3JhZGUvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/truongvu/Documents/Assignments/APDP-ASM-DU/Student Information Management System/Views/ManageUsers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFuYWdlVXNlcnMvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/truongvu/Documents/Assignments/APDP/Student Information Management System/Student Information Management System/Views/ManageUsers/Edit.cshtml]
+[/Users/truongvu/Documents/Assignments/APDP-ASM-DU/Student Information Management System/Views/ManageUsers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFuYWdlVXNlcnMvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/truongvu/Documents/Assignments/APDP/Student Information Management System/Student Information Management System/Views/Register/Index.cshtml]
+[/Users/truongvu/Documents/Assignments/APDP-ASM-DU/Student Information Management System/Views/Profile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZmlsZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/truongvu/Documents/Assignments/APDP-ASM-DU/Student Information Management System/Views/Register/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVnaXN0ZXIvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/truongvu/Documents/Assignments/APDP/Student Information Management System/Student Information Management System/Views/Shared/Error.cshtml]
+[/Users/truongvu/Documents/Assignments/APDP-ASM-DU/Student Information Management System/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/truongvu/Documents/Assignments/APDP/Student Information Management System/Student Information Management System/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/truongvu/Documents/Assignments/APDP-ASM-DU/Student Information Management System/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/truongvu/Documents/Assignments/APDP/Student Information Management System/Student Information Management System/Views/_ViewImports.cshtml]
+[/Users/truongvu/Documents/Assignments/APDP-ASM-DU/Student Information Management System/Views/ViewAcademicRecord/ViewAcademicRecord.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmlld0FjYWRlbWljUmVjb3JkL1ZpZXdBY2FkZW1pY1JlY29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/truongvu/Documents/Assignments/APDP-ASM-DU/Student Information Management System/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/truongvu/Documents/Assignments/APDP/Student Information Management System/Student Information Management System/Views/_ViewStart.cshtml]
+[/Users/truongvu/Documents/Assignments/APDP-ASM-DU/Student Information Management System/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/truongvu/Documents/Assignments/APDP/Student Information Management System/Student Information Management System/Views/Shared/_Layout.cshtml]
+[/Users/truongvu/Documents/Assignments/APDP-ASM-DU/Student Information Management System/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ukg0phzda1

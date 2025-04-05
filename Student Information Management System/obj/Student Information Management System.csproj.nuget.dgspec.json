@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/truongvu/Documents/Assignments/APDP/Student Information Management System/Student Information Management System/Student Information Management System.csproj": {}
+    "/Users/truongvu/Documents/Assignments/APDP-ASM-DU/Student Information Management System/Student Information Management System.csproj": {}
   },
   "projects": {
-    "/Users/truongvu/Documents/Assignments/APDP/Student Information Management System/Student Information Management System/Student Information Management System.csproj": {
+    "/Users/truongvu/Documents/Assignments/APDP-ASM-DU/Student Information Management System/Student Information Management System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/truongvu/Documents/Assignments/APDP/Student Information Management System/Student Information Management System/Student Information Management System.csproj",
+        "projectUniqueName": "/Users/truongvu/Documents/Assignments/APDP-ASM-DU/Student Information Management System/Student Information Management System.csproj",
         "projectName": "Student Information Management System",
-        "projectPath": "/Users/truongvu/Documents/Assignments/APDP/Student Information Management System/Student Information Management System/Student Information Management System.csproj",
+        "projectPath": "/Users/truongvu/Documents/Assignments/APDP-ASM-DU/Student Information Management System/Student Information Management System.csproj",
         "packagesPath": "/Users/truongvu/.nuget/packages/",
-        "outputPath": "/Users/truongvu/Documents/Assignments/APDP/Student Information Management System/Student Information Management System/obj/",
+        "outputPath": "/Users/truongvu/Documents/Assignments/APDP-ASM-DU/Student Information Management System/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/truongvu/.nuget/NuGet/NuGet.Config"
@@ -43,6 +43,20 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "QuestPDF": {
+              "target": "Package",
+              "version": "[2025.1.7, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

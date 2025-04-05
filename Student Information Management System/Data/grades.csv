@@ -1,6 +1,6 @@
 gradeID,studentID,courseID,grade,semester
-1,30,1,9.66,Spring 2025
-2,4,1,8.56,Spring 2025
+1,30,1,9.11,Spring 2025
+2,4,1,8.59,Spring 2025
 3,26,1,5.17,Spring 2025
 4,5,1,6.84,Spring 2025
 5,27,1,7.52,Spring 2025
@@ -46,3 +46,7 @@ gradeID,studentID,courseID,grade,semester
 45,22,7,7.74,Fall 2025
 46,17,7,6.32,Fall 2025
 47,14,7,5.24,Fall 2025
+48,14,9,1,Fall 2025
+49,22,9,0,Fall 2025
+50,14,9,0,Fall 2025
+51,22,9,0,Fall 2025

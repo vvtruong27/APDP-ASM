@@ -1,8 +1,9 @@
 courseID,courseName,courseCode,department,creditHours,semester,students,faculty
-1,Introduction to Programming,CS101,Computer Science,3,Spring 2025,"[30, 4, 26, 5, 27, 17, 14, 28, 22]",25
-2,Data Structures,CS201,Computer Science,3,Spring 2025,"[14, 30, 22, 4, 26, 5, 17, 23, 28]",19
-3,Database Management,CS301,Computer Science,3,Fall 2025,"[26, 27, 4, 30, 28]",24
-4,Discrete Mathematics,MTH202,Mathematics,4,Spring 2025,"[17, 26, 5, 30, 27, 23]",24
-5,Operating Systems,CS401,Computer Science,3,Fall 2025,"[28, 23, 22, 27, 5, 14, 26, 4]",25
-6,Artificial Intelligence,CS501,Computer Science,3,Spring 2025,"[4, 17, 14, 5, 23]",10
-7,Software Engineering,CS601,Software Development,3,Fall 2025,"[26, 30, 22, 17, 14]",10
+1,Introduction to Programming,CS101,Computer Science,3,Spring 2025,30;4;26;5;27;17;14;28;22,6
+2,Data Structures,CS201,Computer Science,3,Spring 2025,14;30;22;4;26;5;17;23;28,19
+3,Database Management,CS301,Computer Science,3,Fall 2025,26;27;4;30;28,24
+4,Discrete Mathematics,MTH202,Mathematics,4,Spring 2025,17;26;5;30;27;23,24
+5,Operating Systems,CS401,Computer Science,3,Fall 2025,28;23;22;27;5;14;26;4,25
+6,Artificial Intelligence,CS501,Computer Science,3,Spring 2025,4;17;14;5;23,10
+7,Software Engineering,CS601,Software Development,3,Fall 2025,26;30;22;17;14,10
+9,Structures,CS10,Computer G,2,Fall 2025,14;22,10

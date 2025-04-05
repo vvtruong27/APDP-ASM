@@ -1,19 +1,16 @@
-using System;
+using QuestPDF.Fluent;
+using QuestPDF.Helpers;
+using QuestPDF.Infrastructure;
 using StudentInformationManagementSystem.Interfaces;
+using StudentInformationManagementSystem.Models;
+using System;
+using System.Collections.Generic;
+using System.IO;
 
 namespace StudentInformationManagementSystem.Services
 {
     public class PDFDownloadStrategy : ITranscriptDownloadStrategy
     {
-        public void DownloadTranscript(string studentId, string format)
-        {
-            if (format.ToLower() != "pdf")
-            {
-                throw new ArgumentException("Invalid format for PDF download strategy.");
-            }
-
-            // Logic tải bảng điểm dưới dạng PDF
-            Console.WriteLine($"Transcript for Student {studentId} has been downloaded as a PDF.");
-        }
+        
     }
 }

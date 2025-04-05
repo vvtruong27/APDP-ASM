@@ -1,19 +1,15 @@
-using System;
 using StudentInformationManagementSystem.Interfaces;
+using StudentInformationManagementSystem.Models;
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
 
 namespace StudentInformationManagementSystem.Services
 {
     public class PNGDownloadStrategy : ITranscriptDownloadStrategy
     {
-        public void DownloadTranscript(string studentId, string format)
-        {
-            if (format.ToLower() != "png")
-            {
-                throw new ArgumentException("Invalid format for PNG download strategy.");
-            }
-
-            // Logic tải bảng điểm dưới dạng PNG
-            Console.WriteLine($"Transcript for Student {studentId} has been downloaded as a PNG.");
-        }
+        
     }
 }
